@@ -1,0 +1,141 @@
+Destination of this file is to attribute used materials to its authors and appreciate theirs work. 
+The project was based on the knowledge presented in the online course "React - The Complete Guide (incl Hooks, React Router, Redux)" by Maximillian Schwarzmüller. The course is available at the link https://www.udemy.com/course/react-the-complete-guide-incl-redux/
+Graphics used in this project have been downloaded from https://www.freepik.com/ and https://www.flaticon.com/ websites.
+
+Backgrounds (frontend\src\assets\backgrounds):
+login.jpg - https://www.freepik.com/free-vector/hiker-man-cave-with-view-lake-mountains_23702534.htm - Image by upklyak on Freepik
+
+main.jpg - https://www.freepik.com/free-vector/outdoor-nature-adventure-camping-illustration-cartoon-flat-tourist-camp-with-picnic-spot-tent-among-forest-mountain-landscape_12953583.htm - Image by jcomp on Freepik
+
+egypt.jpg - https://www.freepik.com/free-vector/sphinx-pyramid-illustration-landscape-tourism-travel-egypt-egyptian-architecture-world-wonder-ancient-landmarks_23591765.htm - Image by studio4rt na Freepik
+
+jungle.jpg - https://www.freepik.com/free-vector/cartoon-jungle-background_14351507.htm - Image by pikisuperstar na Freepik
+
+mountain.jpg - https://www.freepik.com/free-vector/mountain-ridges-vector-illustration-sunrise_11950790.htm - Image by valadzionak_volha on Freepik
+
+route66.jpg - https://www.freepik.com/free-vector/desert-landscape-with-empty-asphalt-way-canyon-wasteland-route-66-path-with-road-sign_3264680.htm - Image by vectorpocket on Freepik
+
+sky.jpg - https://www.freepik.com/free-vector/sky-background-pastel-paper-cut-design-vector_18938534.htm - Image by rawpixel.com on Freepik
+
+water.jpg - https://www.freepik.com/free-vector/wooden-boat-lake-pond-river-with-mountains_20902890.htm - Image by upklyak na Freepik
+
+Icons (frontend\src\assets\icons):
+angkor-wat.png - https://www.flaticon.com/free-icon/angkor-wat_756092 - Angkor wat icons created by Chanut-is-Industries - Flaticon
+
+badges.png - https://www.flaticon.com/free-icon/badges_1293190 - Scouts icons created by berkahicon - Flaticon
+
+beach.png - https://www.flaticon.com/free-icon/beach_3722618 - Beach icons created by Freepik - Flaticon
+
+big-ben.png - https://www.flaticon.com/free-icon/big-ben_3654957 - London icons created by Freepik - Flaticon
+
+bonfire.png - https://www.flaticon.com/free-icon/fire_3261944 - Warmth icons created by Smashicons - Flaticon
+
+bonfire_2.png - https://www.flaticon.com/free-icon/bonfire_2733311 - Fire icons created by fjstudio - Flaticon
+
+brazil.png - https://www.flaticon.com/free-icon/brazil_4087498 - Brazil icons created by Freepik - Flaticon
+
+california.png - https://www.flaticon.com/free-icon/california_7906443 - California icons created by Flat Icons - Flaticon
+
+cathedral-of-saint-basil.png - https://www.flaticon.com/free-icon/cathedral-of-saint-basil_1846128 - Moscow icons created by Freepik - Flaticon
+
+chichen-itza-pyramid.png - https://www.flaticon.com/free-icon/chichen-itza-pyramid_3983459 - Mexico icons created by Freepik - Flaticon
+
+china.png - https://www.flaticon.com/free-icon/china_4628706 - China icons created by GeekClick - Flaticon
+
+climbing.png - https://www.flaticon.com/free-icon/climbing_946942 - Backpack icons created by Freepik - Flaticon
+
+colombia.png - https://www.flaticon.com/free-icon/colombia_5922036 - Colombia icons created by IYAHICON - Flaticon
+
+colosseum.png - https://www.flaticon.com/free-icon/colosseum_3654962 - Italy icons created by Freepik - Flaticon
+
+compass.png - https://www.flaticon.com/free-icon/compass_7462991 - Scouts icons created by 7AM - Flaticon
+
+cuba.png - https://www.flaticon.com/free-icon/cuba_4854935 - Cuba icons created by GeekClick - Flaticon
+
+dominican-republic - https://www.flaticon.com/free-icon/dominican-republic_197619 - Dominican republic icons created by Freepik - Flaticon
+
+eiffel-tower.png - https://www.flaticon.com/free-icon/eiffel-tower_1834575 - Paris icons created by Freepik - Flaticon
+
+europe.png - https://www.flaticon.com/free-icon/europe_2112103 - Europe icons created by Freepik - Flaticon
+
+flame.png - https://www.flaticon.com/free-icon/flame_426833 - Fire icons created by Vectors Market - Flaticon
+
+florida.png - https://www.flaticon.com/free-icon/florida_7906496 - Florida icons created by Flat Icons - Flaticon
+
+friendship.png - https://www.flaticon.com/free-icon/friendship_3220829 - Friend icons created by Freepik - Flaticon
+
+golden-gate-bridge.png - https://www.flaticon.com/free-icon/golden-gate-bridge_774232 - Golden gate bridge icons created by Freepik - Flaticon
+
+great-wall-of-china.png - https://www.flaticon.com/free-icon/great-wall-of-china_3654984 - Great wall of china icons created by Freepik - Flaticon
+
+hagia-sophia.png - https://www.flaticon.com/free-icon/hagia-sophia_1752132 - Istanbul icons created by photo3idea_studio - Flaticon
+
+india.png - https://www.flaticon.com/free-icon/india_706256 - India icons created by Freepik - Flaticon
+
+italy.png - https://www.flaticon.com/free-icon/italy_2858730 - Italy icons created by Freepik - Flaticon
+
+jungle.png - https://www.flaticon.com/free-icon/jungle_2417585 - Jungle icons created by max.icons - Flaticon
+
+lake.png - https://www.flaticon.com/free-icon/lake_2046214 - Lake icons created by Freepik - Flaticon
+
+london-eye.png - https://www.flaticon.com/free-icon/london-eye_1235851 - London eye icons created by Smashicons - Flaticon
+
+machu-picchu.png - https://www.flaticon.com/free-icon/machu-picchu_3180904 - Peru icons created by Freepik - Flaticon
+
+matterhorn.png - https://www.flaticon.com/free-icon/matterhorn_1727173 - Alps icons created by Freepik - Flaticon
+
+matterhorn_2.png - https://www.flaticon.com/free-icon/matterhorn_6022859 - Switzerland icons created by tulpahn - Flaticon
+
+mountain.png - https://www.flaticon.com/free-icon/mountain_2847264 - Mountain icons created by Freepik - Flaticon
+
+mountain_2.png - https://www.flaticon.com/free-icon/mountain_2847425 - Mountain icons created by Freepik - Flaticon
+
+mountains.png - https://www.flaticon.com/free-icon/mountains_762488 - Mountain icons created by Freepik - Flaticon
+
+mundur.png - https://www.flaticon.com/free-icon/uniform_2033958 - Uniform icons created by smalllikeart - Flaticon
+
+nfl.png - https://www.flaticon.com/free-icon/nfl_1508171 - Nfl icons created by Freepik - Flaticon
+
+outline_usa.png - https://www.flaticon.com/free-icon/united-states-of-america_3200269 - Usa icons created by Freepik - Flaticon
+
+peru.png - https://www.flaticon.com/free-icon/peru_197563 - Peru icons created by Freepik - Flaticon
+
+petra.png - https://www.flaticon.com/free-icon/petra_3197157 - Jordan icons created by Rudiyana - Flaticon
+
+pine_tree.png - https://www.flaticon.com/free-icon/pine-tree_3575006 - Pine tree icons created by Umeicon - Flaticon
+
+pine.png - https://www.flaticon.com/free-icon/pine_685049 - Pine icons created by Freepik - Flaticon
+
+poland.png - https://www.flaticon.com/free-icon/poland_197529 - Poland icons created by Freepik - Flaticon
+
+pyramids.png - https://www.flaticon.com/free-icon/pyramids_2195550 - Pyramids icons created by Freepik - Flaticon
+
+republic_of_poland.png - https://www.flaticon.com/free-icon/republic-of-poland_303157 - Republic of Poland icons created by Freepik - Flaticon
+
+rio-.png - https://www.flaticon.com/free-icon/rio_743526 - Rio icons created by Darius Dan - Flaticon
+
+river.png, river (1).png - https://www.flaticon.com/free-icon/river_4765768 - River icons created by kerismaker - Flaticon
+
+river (2).png - https://www.flaticon.com/free-icon/river_7684373 - River icons created by Freepik - Flaticon
+
+river_3.png - https://www.flaticon.com/free-icon/river_1566600 - River icons created by max.icons - Flaticon
+
+sagrada-familia.png - https://www.flaticon.com/free-icon/sagrada-familia_756121 - Sagrada Familia icons created by Chanut-is-Industries - Flaticon
+
+south-africa.png - https://www.flaticon.com/free-icon/south-africa_197562 - South Africa icons created by Freepik - Flaticon
+
+south-korea.png - https://www.flaticon.com/free-icon/south-korea_197582 - South Korea icons created by Freepik - Flaticon
+
+statue-of-liberty.png - https://www.flaticon.com/free-icon/statue-of-liberty_3655025 - Statue of Liberty icons created by Freepik - Flaticon
+
+taj-mahal.png - https://www.flaticon.com/free-icon/taj-mahal_3654977 - Taj Mahal icons created by Freepik - Flaticon
+
+texas.png - https://www.flaticon.com/free-icon/texas_2318495 - Texas icons created by Freepik - Flaticon
+
+uncle-sam.png - https://www.flaticon.com/free-icon/uncle-sam_3394813 - Uncle Sam icons created by amonrat rungreangfangsai - Flaticon
+
+united-states (1).png - https://www.flaticon.com/free-icon/united-states_206626 - United States icons createdby Freepik - Flaticon
+
+united-states-of-america.png - https://www.flaticon.com/free-icon/united-states-of-america_323310 - United States of America icons created by Roundicons - Flaticon
+
+usa-map.png - https://www.flaticon.com/free-icon/usa-map_4800920 - Usa Map icons created by justicon - Flaticon

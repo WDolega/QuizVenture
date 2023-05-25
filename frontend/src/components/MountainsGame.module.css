@@ -1,0 +1,72 @@
+.mountainsGame {
+	margin-top: 10rem;
+	text-align: center;
+	align-items: center;
+}
+
+.mountainsGame h1 {
+	font-size: 3rem;
+	color: #fff;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+
+.mountainsGame h2 {
+	font-size: 2rem;
+	margin-top: -2rem;
+	margin-bottom: 1rem;
+}
+
+.mountainsGame h3 {
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+.mountainsGame .answers {
+	display: flex;
+
+	justify-content: space-around;
+	align-items: center;
+	gap: 10rem;
+	margin-top: 10rem;
+}
+
+.mountainsGame button {
+	padding: 0.5rem 1.5rem;
+	height: 15rem;
+	width: 30rem;
+	cursor: pointer;
+	margin-top: 0;
+	border-radius: 50%;
+	color: #fff;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+		2px 2px 0 #000;
+	transition: opacity 3s linear;
+}
+
+.left {
+	background-color: #f7dca5;
+	border: 0.3rem solid #c8a34c;
+}
+
+.right {
+	background-color: #b0d9ee;
+	border: 0.3rem solid #3ca0d4;
+}
+
+.mountainsGame .correct:active {
+	transition-delay: 2s;
+	background-color: #c0ef90;
+	border: 0.3rem solid #347808;
+}
+
+.mountainsGame .wrong:active {
+	transition-delay: 2s;
+	background-color: #f69295;
+	border: 0.3rem solid #c41628;
+}
+
+.mountainsGame:active button,
+.mountainsGame:visited button {
+	opacity: 0;
+}

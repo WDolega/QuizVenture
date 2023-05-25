@@ -1,0 +1,21 @@
+.badgesTheme {
+	position: fixed;
+	top: 10%;
+	width: 100%;
+	height: 100%;
+	background-color: #ccba9a;
+	align-items: center;
+	background-size: cover;
+}
+
+.uniform {
+	position: fixed;
+	/* left: 5%; */
+	width: 100%;
+	height: 100%;
+	/* border-radius: 20%; */
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../assets/icons/mundur.png');
+}

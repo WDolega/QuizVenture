@@ -1,0 +1,189 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin: 3rem auto;
+	width: 100%;
+	/* height: 100%; */
+}
+
+.result {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.result h1 {
+	font-size: 3rem;
+	color: #fff;
+	text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
+		1.5px 1.5px 0 #000;
+}
+
+.result button {
+	padding: 1rem 1.5rem;
+	font-size: 1rem;
+	background-color: transparent;
+	color: #fff;
+	border: 0.2rem solid #1b1b1b;
+	background-color: #e0dfdf;
+	border-radius: 50%;
+	cursor: pointer;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.result button:hover {
+	background-color: #c0bfbf;
+}
+
+.states,
+.capitals {
+	display: flex;
+	justify-content: space-around;
+	gap: 8rem;
+}
+
+.button {
+	padding: 0.5rem 1rem;
+	margin: 0 0.5rem;
+	height: 7rem;
+	width: 12rem;
+	color: #fff;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+		1px 1px 0 #000;
+	border-radius: 50%;
+	font-size: 1.5rem;
+	cursor: pointer;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.states button {
+	background-color: #f7dca5;
+	border: 0.3rem solid #c8a34c;
+}
+
+.states button:hover {
+	background-color: #f3d18c;
+}
+
+.capitals button {
+	background-color: #b0d9ee;
+	border: 0.3rem solid #3ca0d4;
+}
+
+.capitals button:hover {
+	background-color: #93cdea;
+}
+
+.selected,
+.selected:hover {
+	background-color: #c0ef90 !important;
+	border: 0.3rem solid #347808 !important;
+}
+
+.capitals button:disabled,
+.capitals button[disabled],
+.states button:disabled,
+.states button[disabled] {
+	/* background-color: rgb(205, 204, 204); */
+	pointer-events: none;
+	opacity: 0.6;
+	/* visibility: hidden;  */
+}
+
+/* .canvasContainer {
+	display: flex;
+	justify-content: center;
+	margin: 1rem;
+}
+
+.canvas {
+	width: calc(150px * 5);
+	height: 100px;
+}
+
+.line {
+	stroke: green;
+	stroke-width: 4;
+} */
+
+/* .capitals button:disabled ~ .canvasContainer .canvas line {
+	stroke: green;
+} */
+/* 
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.states {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 20px;
+}
+
+.capitals {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.canvasContainer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.canvas line {
+	stroke: green;
+	stroke-width: 4px;
+}
+
+.button {
+	font-size: 16px;
+	padding: 8px 16px;
+	margin: 5px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.button:hover:not(:disabled) {
+	background-color: #e2e2e2;
+}
+
+.button:disabled {
+	cursor: default;
+	background-color: #ccc;
+}
+
+.selected {
+	background-color: #4caf50;
+	color: white;
+}
+
+.selected:hover:not(:disabled) {
+	background-color: #4caf50;
+} */

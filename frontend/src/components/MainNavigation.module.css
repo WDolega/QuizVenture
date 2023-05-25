@@ -1,0 +1,107 @@
+.header {
+	/* max-width: 60rem; */
+	/* height: 10%;
+	margin: auto;
+	padding: 1rem 1rem 1rem;
+	display: flex; */
+	/* align-items: flex-end; */
+	/* justify-content: flex-end; */
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fcfcfc;
+	padding: 0 2rem;
+	z-index: 10;
+}
+
+.header img {
+	height: 4rem;
+	object-fit: cover;
+}
+
+.header .list {
+	height: 80%;
+}
+.header button {
+	height: 4rem;
+	width: 4rem;
+	margin-right: 1rem;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.friends button {
+	background-size: 85%;
+	border: 0.15rem solid #80b4fb;
+	background-image: url('../assets/icons/friendship.png');
+}
+
+.friends button:hover {
+	border: 0.2rem solid #80b4fb;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+}
+
+.bonfire h1 {
+	margin: 0;
+	font-size: 1.5rem;
+	color: #fddb0e;
+	text-shadow: -1px -1px 0 #f16521, 1px -1px 0 #f16521, -1px 1px 0 #f16521,
+		1px 1px 0 #f16521;
+}
+
+.bonfire button {
+	background-size: 72%;
+	border: 0.15rem solid #f16521;
+	background-image: url('../assets/icons/bonfire.png');
+}
+
+.bonfire button:hover {
+	border: 0.2rem solid #f16521;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+}
+
+.badges button {
+	background-size: 72%;
+	border: 0.15rem solid #e7aa36;
+	background-image: url('../assets/icons/badges.png');
+}
+
+.badges button:hover {
+	border: 0.2rem solid #e7aa36;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+}
+
+.profile button {
+	background-size: 82%;
+	border: 0.15rem solid rgb(29, 28, 28);
+	background-image: url('../assets/icons/compass.png');
+}
+
+.profile button:hover {
+	border: 0.2rem solid rgb(29, 28, 28);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+}
+
+.list {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 1rem;
+}
+
+.list a {
+	text-decoration: none;
+	color: var(--color-primary-400);
+}
+
+.list a:hover,
+.list a.active {
+	color: var(--color-primary-800);
+}

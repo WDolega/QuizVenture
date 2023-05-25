@@ -1,0 +1,14 @@
+.mountainGameTheme {
+	position: fixed;
+	top: 10%;
+	width: 100%;
+	height: 90%;
+	background-size: cover;
+	background-position: center top;
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.6),
+			rgba(255, 255, 255, 0.6)
+		),
+		url('../assets/backgrounds/mountains.jpg');
+	align-items: center;
+}

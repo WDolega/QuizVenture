@@ -1,0 +1,389 @@
+.theme {
+	position: fixed;
+	top: 10%;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center top;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
+	margin-top: 2rem;
+}
+
+.list button {
+	border: none;
+	opacity: 0.7;
+	height: 8rem;
+	width: 8rem;
+	border-radius: 50%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.list h1 {
+	margin-top: 0;
+	position: absolute;
+	top: 7rem;
+	right: 0px;
+	bottom: 0px;
+	left: 6rem;
+	font-size: 3rem;
+}
+
+.lvl_1,
+.lvl_2,
+.lvl_3,
+.lvl_4 {
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.lvl_1::after,
+.lvl_2::after,
+.lvl_3::after,
+.lvl_4::after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-size: 73%;
+	transition: all 0.5s linear;
+}
+
+.lvl_1::before,
+.lvl_2::before,
+.lvl_3::before,
+.lvl_4::before {
+	content: '';
+	position: absolute;
+	width: 0.4rem;
+	top: 8rem;
+	right: 0px;
+	bottom: -5rem;
+	left: calc(4rem - 0.2rem);
+}
+
+.usa .lvl_1::before,
+.usa .lvl_2::before,
+.usa .lvl_3::before,
+.usa .lvl_4::before {
+	background-color: #003068;
+}
+
+.usa .lvl_1::after,
+.usa .lvl_2::after,
+.usa .lvl_3::after,
+.usa .lvl_4::after {
+	border: 0.3rem solid #003068;
+}
+
+.usa .lvl_1::after {
+	background-image: url('../assets/icons/california.png');
+}
+
+.usa .lvl_2::after {
+	background-image: url('../assets/icons/statue-of-liberty.png');
+}
+
+.usa .lvl_3::after {
+	background-image: url('../assets/icons/texas.png');
+}
+
+.usa .lvl_4::after {
+	background-image: url('../assets/icons/florida.png');
+}
+
+.usa h1 {
+	color: #296fc0;
+	text-shadow: -2px -2px 0 #0b378a, 2px -2px 0 #0b378a, -2px 2px 0 #0b378a,
+		2px 2px 0 #0b378a;
+}
+
+.famousPlaces .lvl_1::before,
+.famousPlaces .lvl_2::before,
+.famousPlaces .lvl_3::before,
+.famousPlaces .lvl_4::before {
+	background-color: #ce8f6c;
+}
+
+.famousPlaces .lvl_1::after,
+.famousPlaces .lvl_2::after,
+.famousPlaces .lvl_3::after,
+.famousPlaces .lvl_4::after {
+	border: 0.3rem solid #ce8f6c;
+}
+
+.famousPlaces .lvl_1::after {
+	background-image: url('../assets/icons/eiffel-tower.png');
+}
+
+.famousPlaces .lvl_2::after {
+	background-image: url('../assets/icons/golden-gate-bridge.png');
+}
+
+.famousPlaces .lvl_3::after {
+	background-image: url('../assets/icons/london-eye.png');
+}
+
+.famousPlaces .lvl_4::after {
+	background-image: url('../assets/icons/cathedral-of-saint-basil.png');
+}
+
+.famousPlaces h1 {
+	color: #f7c048;
+	text-shadow: -2px -2px 0 #8e573a, 2px -2px 0 #8e573a, -2px 2px 0 #8e573a,
+		2px 2px 0 #8e573a;
+}
+
+.flags .lvl_1::before,
+.flags .lvl_2::before,
+.flags .lvl_3::before,
+.flags .lvl_4::before {
+	background-color: #fff;
+}
+
+.flags .lvl_1::after {
+	background-size: 100%;
+	background-image: url('../assets/icons/poland.png');
+}
+
+.flags .lvl_2::after {
+	background-size: 100%;
+	background-image: url('../assets/icons/cuba.png');
+}
+
+.flags .lvl_3::after {
+	background-size: 100%;
+	background-image: url('../assets/icons/south-korea.png');
+}
+
+.flags .lvl_4::after {
+	background-size: 100%;
+	background-image: url('../assets/icons/south-africa.png');
+}
+
+.flags h1 {
+	color: #fff;
+	text-shadow: -2px -2px 0 #d92446, 2px -2px 0 #d92446, -2px 2px 0 #d92446,
+		2px 2px 0 #d92446;
+}
+
+.reservoirs .lvl_1::before,
+.reservoirs .lvl_2::before,
+.reservoirs .lvl_3::before,
+.reservoirs .lvl_4::before {
+	background-color: #003068;
+}
+
+.reservoirs .lvl_1::after,
+.reservoirs .lvl_2::after,
+.reservoirs .lvl_3::after,
+.reservoirs .lvl_4::after {
+	border: 0.3rem solid #003068;
+}
+
+.reservoirs .lvl_1::after {
+	background-image: url('../assets/icons/river_3.png');
+}
+
+.reservoirs .lvl_2::after {
+	background-size: 63%;
+	background-image: url('../assets/icons/beach.png');
+}
+
+.reservoirs .lvl_3::after {
+	background-size: 82%;
+	background-image: url('../assets/icons/lake.png');
+}
+
+.reservoirs .lvl_4::after {
+	background-image: url('../assets/icons/wave.png');
+}
+
+.reservoirs h1 {
+	color: #bbd9f3;
+	text-shadow: -2px -2px 0 #001f41, 2px -2px 0 #001f41, -2px 2px 0 #001f41,
+		2px 2px 0 #001f41;
+}
+
+.mountains .lvl_1::before,
+.mountains .lvl_2::before,
+.mountains .lvl_3::before,
+.mountains .lvl_4::before {
+	background-color: #003068;
+}
+
+.mountains .lvl_1::after,
+.mountains .lvl_2::after,
+.mountains .lvl_3::after,
+.mountains .lvl_4::after {
+	border: 0.3rem solid #003068;
+}
+
+.mountains .lvl_1::after {
+	background-size: 65%;
+	background-image: url('../assets/icons/mountain_2.png');
+}
+
+.mountains .lvl_2::after {
+	background-size: 70%;
+	background-image: url('../assets/icons/climbing.png');
+}
+
+.mountains .lvl_3::after {
+	background-image: url('../assets/icons/pine-tree.png');
+}
+
+.mountains .lvl_4::after {
+	background-size: 68%;
+	background-image: url('../assets/icons/matterhorn_2.png');
+}
+
+.mountains h1 {
+	color: #fef6ed;
+	text-shadow: -2px -2px 0 #001f41, 2px -2px 0 #001f41, -2px 2px 0 #001f41,
+		2px 2px 0 #001f41;
+}
+
+.countries .lvl_1::before,
+.countries .lvl_2::before,
+.countries .lvl_3::before,
+.countries .lvl_4::before {
+	background-color: #556e46;
+}
+
+.countries .lvl_1::after,
+.countries .lvl_2::after,
+.countries .lvl_3::after,
+.countries .lvl_4::after {
+	border: 0.3rem solid #556e46;
+}
+
+.countries .lvl_1::after {
+	background-image: url('../assets/icons/italy.png');
+}
+
+.countries .lvl_2::after {
+	background-image: url('../assets/icons/usa-map.png');
+}
+
+.countries .lvl_3::after {
+	background-image: url('../assets/icons/brazil.png');
+}
+
+.countries .lvl_4::after {
+	background-image: url('../assets/icons/india.png');
+}
+
+.countries h1 {
+	color: #a6d78a;
+	text-shadow: -2px -2px 0 #2e3d25, 2px -2px 0 #2e3d25, -2px 2px 0 #2e3d25,
+		2px 2px 0 #2e3d25;
+}
+
+/* 
+.famousPlaces .lvl_1::before,
+.famousPlaces .lvl_2::before,
+.famousPlaces .lvl_3::before,
+.famousPlaces .lvl_4::before {
+	background-color: #ce8f6c;
+}
+
+.famousPlaces .lvl_1::after,
+.famousPlaces .lvl_2::after,
+.famousPlaces .lvl_3::after,
+.famousPlaces .lvl_4::after {
+	border: 0.3rem solid #ce8f6c;
+}
+
+.famousPlaces .lvl_1::after {
+	background-image: url('../assets/icons/eiffel-tower.png');
+}
+
+.famousPlaces .lvl_2::after {
+	background-image: url('../assets/icons/golden-gate-bridge.png');
+}
+
+.famousPlaces .lvl_3::after {
+	background-image: url('../assets/icons/london-eye.png');
+}
+
+.famousPlaces .lvl_4::after {
+	background-image: url('../assets/icons/cathedral-of-saint-basil.png');
+} */
+
+/* .lv1::content {
+	content: '1';
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	color: #003068;
+	z-index: 188;
+} */
+
+.famousPlaces {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.2)
+		),
+		url('../assets/backgrounds/egypt.jpg');
+}
+
+.reservoirs {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.2)
+		),
+		url('../assets/backgrounds/water.jpg');
+}
+
+.usa {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.2)
+		),
+		url('../assets/backgrounds/route66.jpg');
+}
+
+.flags {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.2)
+		),
+		url('../assets/backgrounds/sky.jpg');
+}
+
+.mountains {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.2)
+		),
+		url('../assets/backgrounds/mountains.jpg');
+}
+
+.countries {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.2)
+		),
+		url('../assets/backgrounds/jungle.jpg');
+}

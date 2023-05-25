@@ -1,0 +1,55 @@
+.theme {
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.home {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.2)
+		),
+		url('../assets/backgrounds/main.jpg');
+}
+
+.famousPlaces {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.2)
+		),
+		url('../assets/backgrounds/egypt.jpg');
+}
+
+.reservoirs {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.2)
+		),
+		url('../assets/backgrounds/water.jpg');
+}
+
+.usa {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.2)
+		),
+		url('../assets/backgrounds/route66.jpg');
+}
+
+.flags {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.2)
+		),
+		url('../assets/backgrounds/sky.jpg');
+}
+
+.mountains {
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.2)
+		),
+		url('../assets/backgrounds/mountains.jpg');
+}

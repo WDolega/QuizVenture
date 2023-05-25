@@ -1,0 +1,131 @@
+main {
+	top: 0;
+}
+
+.theme {
+	height: 100%;
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.1),
+			rgba(255, 255, 255, 0.1)
+		),
+		url('../assets/backgrounds/login.jpg');
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+	background-position: center top;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.theme h2 {
+	text-shadow: -1px -1px 0 #d69142, 1px -1px 0 #d69142, -1px 1px 0 #d69142,
+		1px 1px 0 #d69142;
+}
+
+.theme img {
+	margin-top: -8rem;
+	padding: -1rem 0 2rem;
+}
+
+.form {
+	min-width: 30rem;
+	/* max-width: 40rem; */
+	/* margin: 2rem auto; */
+}
+
+.form h2 {
+	font-size: 1.6rem;
+	padding: 3rem 0 2rem;
+}
+
+.form label,
+.form input,
+.form textarea {
+	display: block;
+	width: 100%;
+}
+
+.form input {
+	font: inherit;
+	opacity: 0.9;
+	color: white;
+	flex: 3;
+	font: inherit;
+	font-weight: bold;
+	padding: 0.5rem 1rem;
+	border: 3px solid #d69142;
+	background: #f8dbba;
+	border-radius: 30px;
+	transition: background 0.5s linear;
+}
+
+.form input:focus {
+	outline: none;
+	background: #f3b268;
+}
+
+.form input::content {
+	background: #f3b268;
+	color: white;
+}
+
+.form input:hover {
+	outline: none;
+	background: #f3b268;
+}
+
+.form input::placeholder {
+	text-align: center;
+	color: white;
+	text-shadow: -0.5px -0.5px 0 #d69142, 0.5px -0.5px 0 #d69142,
+		-0.5px 0.5px 0 #d69142, 0.5px 0.5px 0 #d69142;
+}
+
+.form button {
+	font: inherit;
+	font-size: 1.15rem;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	border: 3px solid #0b378a;
+	background: #8bc9ec;
+	padding: 0.5rem 0;
+	border-radius: 30px;
+	width: 100%;
+	transition: background 0.5s linear;
+	text-shadow: -0.5px -0.5px 0 #0b378a, 0.5px -0.5px 0 #0b378a,
+		-0.5px 0.5px 0 #0b378a, 0.5px 0.5px 0 #0b378a;
+}
+
+.form button:hover {
+	background: #5b90f3;
+}
+
+.actions {
+	margin-top: 1rem;
+	display: inline-flex;
+	font-weight: bold;
+	gap: 0.5rem;
+	text-shadow: -0.5px -0.5px 0 #d69142, 0.5px -0.5px 0 #d69142,
+		-0.5px 0.5px 0 #d69142, 0.5px 0.5px 0 #d69142;
+}
+
+.actions a {
+	font-size: 1.3rem;
+	text-decoration: none;
+	background-color: transparent;
+	color: #0b378a;
+	text-shadow: none;
+}
+
+.actions p {
+	text-shadow: -1px -1px 0 #d69142, 1px -1px 0 #d69142, -1px 1px 0 #d69142,
+		1px 1px 0 #d69142;
+}
+
+.actions button:hover {
+	background-color: var(--color-primary-300);
+}

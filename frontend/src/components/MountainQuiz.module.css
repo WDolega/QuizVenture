@@ -1,0 +1,73 @@
+.mountainsQuiz {
+	margin-top: 10rem;
+	text-align: center;
+	align-items: center;
+}
+
+.mountainsQuiz h1 {
+	font-size: 3rem;
+	color: #fff;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+
+.mountainsQuiz h2 {
+	text-align: center;
+	font-size: 2rem;
+	letter-spacing: 0.1rem;
+	line-height: 1.5rem;
+	color: #fff;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+
+.nextStep {
+	font-size: 1.5rem;
+	padding: 1.5rem;
+	background-color: #c8c8c8;
+	color: #fff;
+	border: 0.3rem solid #1b1b1b;
+	border-radius: 50%;
+	cursor: pointer;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+
+.nextStep:hover {
+	background-color: #9f9f9f;
+}
+
+.nextStep[disabled] {
+	display: none;
+}
+
+.result {
+	text-align: center;
+}
+
+.result h1 {
+	font-size: 3rem;
+	color: #fff;
+	text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
+		1.5px 1.5px 0 #000;
+}
+
+.result h2 {
+	font-size: 2rem;
+	color: #fff;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.result button {
+	padding: 1rem 1.5rem;
+	font-size: 1rem;
+	background-color: transparent;
+	color: #fff;
+	border: 0.3rem solid #1b1b1b;
+	background-color: #c8c8c8;
+	border-radius: 50%;
+	cursor: pointer;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+		1px 1px 0 #000;
+}

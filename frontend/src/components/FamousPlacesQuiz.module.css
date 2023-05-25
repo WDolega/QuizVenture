@@ -1,0 +1,164 @@
+.quizContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* margin: 3rem auto; */
+	width: 100%;
+	height: 100%;
+}
+
+.col1,
+.col2 {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 6rem;
+}
+
+.mapContainer {
+	display: flex;
+	width: 76%;
+	height: 95%;
+	background-color: #dec898;
+	border-radius: 35rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.quizContainer button {
+	height: 6rem;
+	width: 6rem;
+	border-radius: 50%;
+	cursor: pointer;
+	background-size: 70%;
+	border: 0.2rem solid #ce8f6c;
+	background-repeat: no-repeat;
+	background-position: center;
+	/* background-image: url('../assets/icons/eiffel-tower.png'); */
+}
+
+.quizContainer button:hover {
+	border: 0.3rem solid #ce8f6c;
+}
+
+.overlay {
+	position: absolute;
+	display: flex;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.548);
+	align-items: center;
+	justify-content: center;
+}
+
+.quizContainer .result {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background-color: #efe6d2;
+	border-radius: 50%;
+	padding: 2rem 3rem;
+	border: 0.2rem solid #ce8f6c;
+}
+
+.result h1 {
+	font-size: 3rem;
+	color: #fff;
+	text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
+		1.5px 1.5px 0 #000;
+}
+
+.quizContainer .result button {
+	height: auto;
+	width: auto;
+	font-size: 1rem;
+	color: #fff;
+	text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000,
+		0.5px 0.5px 0 #000;
+	background-color: #e5d6b3;
+	border-radius: 50%;
+	padding: 1rem 2rem;
+	border: 0.2rem solid #ce8f6c;
+}
+.quizContainer .result button:hover {
+	background-color: #e2cfa5;
+}
+
+.btn1_lvl1 {
+	background-image: url('../assets/icons/eiffel-tower.png');
+}
+
+.btn2_lvl1 {
+	background-image: url('../assets/icons/statue-of-liberty.png');
+}
+
+.btn3_lvl1 {
+	background-image: url('../assets/icons/rio-.png');
+}
+
+.btn4_lvl1 {
+	background-image: url('../assets/icons/pyramids.png');
+}
+
+.btn5_lvl1 {
+	background-image: url('../assets/icons/big-ben.png');
+}
+
+.btn6_lvl1 {
+	background-image: url('../assets/icons/colosseum.png');
+}
+
+.btn7_lvl1 {
+	background-image: url('../assets/icons/taj-mahal.png');
+}
+
+.btn8_lvl1 {
+	background-image: url('../assets/icons/great-wall-of-china.png');
+}
+
+.btn1_lvl2 {
+	background-image: url('../assets/icons/sagrada-familia.png');
+}
+
+.btn2_lvl2 {
+	background-image: url('../assets/icons/petra.png');
+}
+
+.btn3_lvl2 {
+	background-image: url('../assets/icons/machu-picchu.png');
+}
+
+.btn4_lvl2 {
+	background-image: url('../assets/icons/angkor-wat.png');
+}
+
+.btn5_lvl2 {
+	background-image: url('../assets/icons/golden-gate-bridge.png');
+}
+
+.btn6_lvl2 {
+	background-image: url('../assets/icons/chichen-itza-pyramid.png');
+}
+
+.btn7_lvl2 {
+	background-image: url('../assets/icons/cathedral-of-saint-basil.png');
+}
+
+.btn8_lvl2 {
+	background-image: url('../assets/icons/hagia-sophia.png');
+}
+
+button:disabled,
+button[disabled] {
+	/* background-color: rgb(205, 204, 204); */
+	pointer-events: none;
+	opacity: 0.6;
+	border: 0.2rem solid #9c9c9c;
+	/* visibility: hidden;  */
+}
